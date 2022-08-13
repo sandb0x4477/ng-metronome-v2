@@ -1,0 +1,141 @@
+{
+  "configVersion": 1,
+  "timestamp": 1660416387796,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.9c7b7b781c0ecb56.js",
+        "/manifest.webmanifest",
+        "/polyfills.cf748662c3f46c4c.js",
+        "/runtime.d8f1c06880aa6d35.js",
+        "/styles.db2284e0230bd728.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/Lato-Regular.4291f48c2ea51320.ttf",
+        "/assets/audio/Metronome_hi.mp3",
+        "/assets/audio/Metronome_lo.mp3",
+        "/assets/audio/Perc_Can_hi.mp3",
+        "/assets/audio/Perc_Can_lo.mp3",
+        "/assets/audio/Perc_Castanet_hi.mp3",
+        "/assets/audio/Perc_Castanet_lo.mp3",
+        "/assets/audio/Perc_Chair_hi.mp3",
+        "/assets/audio/Perc_Chair_lo.mp3",
+        "/assets/audio/Perc_Glass_hi.mp3",
+        "/assets/audio/Perc_Glass_lo.mp3",
+        "/assets/audio/Perc_Stick_hi.mp3",
+        "/assets/audio/Perc_Stick_lo.mp3",
+        "/assets/audio/Perc_Tamb_A_hi.mp3",
+        "/assets/audio/Perc_Tamb_A_lo.mp3",
+        "/assets/audio/Synth_Bell_A_hi.mp3",
+        "/assets/audio/Synth_Bell_A_lo.mp3",
+        "/assets/audio/Synth_Block_C_hi.mp3",
+        "/assets/audio/Synth_Block_C_lo.mp3",
+        "/assets/audio/Synth_Block_F_hi.mp3",
+        "/assets/audio/Synth_Block_F_lo.mp3",
+        "/assets/audio/Synth_Sine_F_hi.mp3",
+        "/assets/audio/Synth_Sine_F_lo.mp3",
+        "/assets/audio/Synth_Square_A_hi.mp3",
+        "/assets/audio/Synth_Square_A_lo.mp3",
+        "/assets/audio/Synth_Square_E_hi.mp3",
+        "/assets/audio/Synth_Square_E_lo.mp3",
+        "/assets/audio/Synth_Tick_C_hi.mp3",
+        "/assets/audio/Synth_Tick_C_lo.mp3",
+        "/assets/fonts/Lato-Regular.ttf",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/Lato-Regular.4291f48c2ea51320.ttf": "e923c72eda5e50a87e18ff5c71e9ef4b3b6455a3",
+    "/assets/audio/Metronome_hi.mp3": "8ace848222b2e74b5c673780c7fdcc48ac79aeab",
+    "/assets/audio/Metronome_lo.mp3": "5f258b7b028f9f9ca3bfe50e5eff422b2a3cb016",
+    "/assets/audio/Perc_Can_hi.mp3": "af8a99c7aadf43a998a1ce01aa52a100ed9d2a0d",
+    "/assets/audio/Perc_Can_lo.mp3": "fa90e3bf86f438958b4aae88d2e30627e7a7d9ef",
+    "/assets/audio/Perc_Castanet_hi.mp3": "c3a9d00bbea7c6f1ffd026f15c38e39c941b619a",
+    "/assets/audio/Perc_Castanet_lo.mp3": "a30452e1ed05848dfe9d2d0da6d048a5ad9a47c3",
+    "/assets/audio/Perc_Chair_hi.mp3": "69595f9c766ff3c2df1adf22c5c796ae61aef0d4",
+    "/assets/audio/Perc_Chair_lo.mp3": "7790b588daea6c0f792118519b85c85efc39efc0",
+    "/assets/audio/Perc_Glass_hi.mp3": "ac112bfa50d8115539b7e1b337f424277237c425",
+    "/assets/audio/Perc_Glass_lo.mp3": "9eaffd7d06eddaa5132fca6850c4dff7ba495e9a",
+    "/assets/audio/Perc_Stick_hi.mp3": "72e8f6653f5acd04a329ca744afec657471a2bb3",
+    "/assets/audio/Perc_Stick_lo.mp3": "1bb3a54bf1c26eeaae7735eb8d80d56bd0731250",
+    "/assets/audio/Perc_Tamb_A_hi.mp3": "1a4e8112dc54e01350f8892c43159904fab83300",
+    "/assets/audio/Perc_Tamb_A_lo.mp3": "2c1985b194e0dc8e3e71ae60fcbdd3f7aaa4b299",
+    "/assets/audio/Synth_Bell_A_hi.mp3": "4290a2679b0b1649555ff63661520fbcedd4a746",
+    "/assets/audio/Synth_Bell_A_lo.mp3": "9a79929dc6a3e549b8874c5f49c7c66ba5d232b0",
+    "/assets/audio/Synth_Block_C_hi.mp3": "c3bffd7f4421623986c5e86391360c583bd47476",
+    "/assets/audio/Synth_Block_C_lo.mp3": "e76967955a36989c22852ced2fc73ffb9d40bb43",
+    "/assets/audio/Synth_Block_F_hi.mp3": "e75233e4f97312a9ff3975c2a2b73a8842f364d2",
+    "/assets/audio/Synth_Block_F_lo.mp3": "0d03e5b4d96ac3fb98d4250a6406b0d8ff3ae129",
+    "/assets/audio/Synth_Sine_F_hi.mp3": "2f18300b771f92c0eb0362a119e1cca093103c97",
+    "/assets/audio/Synth_Sine_F_lo.mp3": "2e510c28915291a35f37d1a65a1f44f2cecd743a",
+    "/assets/audio/Synth_Square_A_hi.mp3": "9e8876207be8bd49882763c1f90cb6ea937d135f",
+    "/assets/audio/Synth_Square_A_lo.mp3": "94551365f4f4251d604a92d8cd5dc64196d25ed1",
+    "/assets/audio/Synth_Square_E_hi.mp3": "0f5fbe184825bc98ff77d77271f1f0a5eb2614a0",
+    "/assets/audio/Synth_Square_E_lo.mp3": "f6738953cfa991b7561a92795199c2c107df3654",
+    "/assets/audio/Synth_Tick_C_hi.mp3": "3894742fb6f8f19d0066f8b352557d760b8de286",
+    "/assets/audio/Synth_Tick_C_lo.mp3": "3245a5a6ea9395fcbb2c20cb759cd18a9dd6d7e0",
+    "/assets/fonts/Lato-Regular.ttf": "e923c72eda5e50a87e18ff5c71e9ef4b3b6455a3",
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "048f6e24006c03fa35f94fb3bcfccfe8affb3bf9",
+    "/main.9c7b7b781c0ecb56.js": "f99621591c5377aeb3cb9e4741bbae94bec4cebd",
+    "/manifest.webmanifest": "413c89f723676434262c3b11a264f1ae8f28c92e",
+    "/polyfills.cf748662c3f46c4c.js": "347d62893cf89b2c76947dbb7e652da1ef2c4e55",
+    "/runtime.d8f1c06880aa6d35.js": "c53ec4f527c5c7e09101c09815db718af496d84d",
+    "/styles.db2284e0230bd728.css": "f44ef1c6c8ac04b4548c6999f8da542f383f1033"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

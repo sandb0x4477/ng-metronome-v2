@@ -1,0 +1,45 @@
+
+<div class="container-boxes"
+*ngIf="store.boxesVm$ | async as boxesVm"
+(click)="startStop()">
+<div [class.box-flash]="i === boxesVm.currentBit && boxesVm.isPlaying"
+class="box"
+*ngFor="let item of [].constructor(boxesVm.beats); let i = index">
+</div>
+</div>
+
+<div class="sliders-container">
+
+     <app-slider [id]="'bpm'"
+     [min]="40"
+     [max]="180"
+     [value]="store.bpm$ | async"
+     (command)="onSliderChange($event)"></app-slider>
+     <app-slider [id]="'beats'"
+     [min]="1"
+     [max]="9"
+     [value]="store.beats$ | async"
+     (command)="onSliderChange($event)"></app-slider>
+     <app-slider [id]="'volume'"
+     [min]="0"
+     [max]="100"
+     [value]="store.volume$ | async"
+     (command)="onSliderChange($event)"></app-slider>
+</div>
+
+<div class="tempo-container">
+     <ng-container *ngFor="let item of tempos">
+          <div class="btn"
+          (click)="onTempoSelection(item.value)">{{item.label}}</div>
+     </ng-container>
+</div>
+
+<div class="btn-sound-container">
+     <div class="btn-sound"
+     (click)="store.setMetroSound()"
+     *ngIf="store.metroSound$ | async as metroSound">
+     {{metroSound}}
+</div>
+</div>
+
+

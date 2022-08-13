@@ -1,0 +1,10 @@
+<div class="range-slider">
+  <div class="">{{id.toLocaleUpperCase()}}: {{value}}</div>
+  <input [id]="id"
+         class="rs-range"
+         type="range"
+         [value]="value"
+         [min]="min"
+         [max]="max"
+         (input)="onChange($event, id)">
+</div>
